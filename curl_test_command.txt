@@ -1,0 +1,51 @@
+# Request:
+````
+curl -X GET "http://localhost:8000/get_timeline?user_prompt=provide%20a%20timeline%20of%20the%20french%20revolution."
+````
+# Response:  
+````
+{
+  "timeline": [
+    {
+      "timestamp": "May 5, 1789",
+      "title": "Estates-General of 1789",
+      "description": "The Estates-General of 1789"
+    },
+    {
+      "timestamp": "June 20, 1789",
+      "title": "Tennis Court Oath",
+      "description": "The Tennis Court Oath"
+    },
+    {
+      "timestamp": "July 14, 1789",
+      "title": "Storming of the Bastille",
+      "description": "The Storming of the Bastille"
+    },
+    {
+      "timestamp": "August 26, 1789",
+      "title": "Declaration of the Rights of Man and of the Citizen",
+      "description": "The Declaration of the Rights of Man and of the Citizen"
+    },
+    {
+      "timestamp": "September 1793 - July 1794",
+      "title": "Reign of Terror",
+      "description": "The Reign of Terror"
+    },
+    {
+      "timestamp": "January 21, 1793",
+      "title": "Execution of King Louis XVI",
+      "description": "The Execution of King Louis XVI"
+    },
+    {
+      "timestamp": "October 16, 1793",
+      "title": "Execution of Queen Marie Antoinette",
+      "description": "The Execution of Queen Marie Antoinette"
+    },
+    {
+      "timestamp": "1796-1804",
+      "title": "Rise of Napoleon Bonaparte",
+      "description": "The Rise of Napoleon Bonaparte"
+    }
+  ]
+}
+````
